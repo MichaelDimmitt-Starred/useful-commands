@@ -9,6 +9,10 @@ ctrl e ... move to end of line.
 ```
 esc    ... escape mode.
 note: commands follow action number noun format.
+gg, 1G ... jump to beginning
+G      ... jump to end
+ctrl b ... page up
+ctrl f ... page down
 d5d    ... delete 5 lines
 d5w    ... delete 5 words
 p      ... paste what was deleted  -- this is a different paste from command c and command v which is convenient.
@@ -31,7 +35,7 @@ I go to this command often... <br>
 http://vim.wikia.com/wiki/Search_and_replace<br>
 this looked useful<br>
 http://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm
-
+http://vim.wikia.com/wiki/All_the_right_moves
 ```
 (pending double checking all commands)
 visual mode
