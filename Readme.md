@@ -4,6 +4,11 @@
 !!     ... rewrite, appending new commands onto previous command.
 ctrl a ... move to beginning of line
 ctrl e ... move to end of line.
+
+terminal commands like "ctrl a" and "ctrl e" (a subset of emac commands) also work in other applications 
+like slack or google chrome. this is different from vim. 
+I found this link useful for experimenting to see if works on terminal:
+http://www.rgrjr.com/emacs/emacs_cheat.html
 ```
 ### vim
 ```
