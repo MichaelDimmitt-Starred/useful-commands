@@ -2,6 +2,9 @@
 
 git add .; git commit --amend --no-edit; git push --force-with-lease;
 
+### Update your project
+
+git fetch --all; git checkout branch_name; git pull;
 
 ### My development environment remote information for a project
 remote origin commit information can be found in the linked issue:
@@ -43,16 +46,17 @@ https://github.com/git-lfs/git-lfs?utm_source=gitlfs_site&utm_medium=repo_link&u
 </pre>
 
 ### Cherrypicking
+<b>When do I want to use cherrypicking?</b> Basically if you want to test on master then move that commit to dev and test on dev ensuring that when the commit goes through the natural process it will work on master.
 http://stackoverflow.com/questions/9339429/what-does-cherry-picking-a-commit-with-git-mean
 1) Make sure you are on the branch you want apply the commit to.
- ```git checkout master```
+ `git checkout master` //usually this is dev branch.
 2) Execute the following:
- ```git cherry-pick <commit-hash>```
-
-```git notes copy <fromcommithash> <tocommithash>```
+ `git cherry-pick HEAD~0` //top commit
+3) changing branches and using git log is really useful to keep track when cherry-picking.
 
 simplify into single command:
-git checkout branch; git cherry-pick <commit-hash>git notes copy <fromcommithash> <tocommithash>
+git checkout branch; git cherry-pick HEAD~0;
+
 ### how github handles repo names
 ```
 github allows [A-Za-z0-9_.-], and transforms all other characters to "-"
