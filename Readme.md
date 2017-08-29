@@ -19,7 +19,7 @@ like slack or google chrome. this is different from vim.
 
 `optn b` backward word. (same note as below)
 <br>`optn f` forward word. 
-* <b>note, the above two commands require option enabled as metacharacter. contact mike or look at this post. <br>and search chris page: [enable_option_as_meta_and_move_forward_word_emacs](https://stackoverflow.com/questions/81272/is-there-any-way-in-the-os-x-terminal-to-move-the-cursor-word-by-word) </b>
+* <b>note, the above two commands require option enabled as metacharacter. contact mike or look at this post. <br>and search "chris page": [enable_option_as_meta_and_move_forward_word_emacs](https://stackoverflow.com/questions/81272/is-there-any-way-in-the-os-x-terminal-to-move-the-cursor-word-by-word) </b>
 
 `ctrl a` + `ctrl k` could be a lethal combination!
 ### Vim!! (Im always using vi just because it is one character less to type for program start)
