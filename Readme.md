@@ -16,7 +16,6 @@ like slack or google chrome. this is different from vim.
 <br><b>I probably wont use...</b> `ctrl k` kill remainder of the line.
 <br>`ctrl w` remove word backward.
 
-
 `optn b` backward word. (same note as below)
 <br>`optn f` forward word. 
 * <b>note, the above two commands require option enabled as metacharacter. contact mike or look at this post. <br>and search "chris page": [enable_option_as_meta_and_move_forward_word_emacs](https://stackoverflow.com/questions/81272/is-there-any-way-in-the-os-x-terminal-to-move-the-cursor-word-by-word) </b>
@@ -33,6 +32,8 @@ ctrl b ... page up
 ctrl f ... page down
 d5d    ... delete 5 lines
 d5w    ... delete 5 words
+d$     ... delete words to the end of the line, gold for copy paste!
+
 p      ... paste what was deleted  -- this is a different paste from command c and command v which is convenient.
 u      ... each u is an undo
 ctrl r ... ctrl r is an redo

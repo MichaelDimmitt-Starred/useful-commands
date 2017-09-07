@@ -10,6 +10,7 @@ ctrl b ... page up
 ctrl f ... page down
 d5d    ... delete 5 lines
 d5w    ... delete 5 words
+d$     ... delete words to the end of the line, gold for copy paste!
 p      ... paste what was deleted  -- this is a different paste from command c and command v which is convenient.
 u      ... each u is an undo
 ctrl r ... ctrl r is an redo
